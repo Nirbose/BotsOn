@@ -38,6 +38,7 @@ const botsOnUserModule = require("./main_scripts/class/botson-user.js")
 const extensionModule = require("./main_scripts/class/extension.js")
 const { BotsOnUser } = require('./main_scripts/class/botson-user.js')
 const botModule = require("./main_scripts/class/bot.js")
+require("./main_scripts/beauty.js")
 
 //Init module
 extensionModule.init(dataFolder);
